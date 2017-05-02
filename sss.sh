@@ -8,6 +8,7 @@
 
 sudo apt-get install -y git python
 
+rm -rf ssServerInstall
 git clone https://github.com/blueyi/ssServerInstall.git
 cd ssServerInstall
 python ssServerInstall.py
