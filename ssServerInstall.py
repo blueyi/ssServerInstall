@@ -48,8 +48,8 @@ run_cmd(ats_cmd, error_log, goOnRun=False)
 
 error_log.close()
 if delBlankFile(error_log_file):
-    welcomePrint('shadowsocks install success!\n')
-    welcomePrint("ss password and port in /etc/supervisor/conf.d/ssserver.conf \n \
-                 log in /var/log/supervisor/")
+    welcomePrint('shadowsocks install success!')
+    welcomePrint("ss password and port in /etc/supervisor/conf.d/ssserver.conf")
+    welcomePrint("log in /var/log/supervisor/")
 else:
     welcomePrint('shadowsocks install failed!')
